@@ -1,0 +1,64 @@
+.Todo{
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: #000000;
+}
+.Todo:hover{
+    background-color: #313131;
+}
+
+.Todo label{
+    flex: 1;
+    font-size: 1.2rem;
+}
+
+.dlt-btn{
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+input[type= "checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 3px solid #f00;
+    position: relative;
+    margin-right: 1rem;
+}
+
+input[type= "checkbox"]:checked + .checkbox {
+    background-color: #f00;
+}
+
+.checkbox::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+input[type= "checkbox"]:checked + .checkbox::after {
+    display: block;
+    left: 7px;
+    top: 2px;
+    width: 6px;
+    height: 10px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}

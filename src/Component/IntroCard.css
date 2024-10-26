@@ -1,0 +1,23 @@
+.IntroCard{
+    height: 13rem;
+    width: 40%;
+    background-color: #ffffff16;
+    color: #fff;
+    border-radius: 1rem;
+    margin: 3rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.IntroCard img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.IntroCard h2{
+    color: #f00;
+}
