@@ -1,0 +1,16 @@
+.App{
+    height: 100%;
+    width: 80%;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1f1f;
+    color: #ff0000;
+}
+
+h1{
+    align-self: start;
+    margin: 3rem;
+}

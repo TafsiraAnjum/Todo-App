@@ -1,0 +1,35 @@
+.InputTask{
+    width: 70%;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.InputTask:hover{
+    box-shadow: 5px 0 10px #f00;
+}
+
+.inp-todo{
+    flex: 1;
+    font-size: 1rem;
+    border: none;
+    padding: 1rem;
+    background-color: #fff;
+    color: #000;
+}
+.inp-todo:focus{
+    outline: none;
+}
+
+.add-btn{
+    border: none;
+    background-color: #fff;
+    color: #f00;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    transition: font-size 0.5s;
+    cursor: pointer;
+}
+.add-btn:active{
+    font-size: 1rem;
+}

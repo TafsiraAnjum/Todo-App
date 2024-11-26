@@ -1,0 +1,5 @@
+.TodoList{
+    flex: 1;
+    width: 90%;
+    place-items: center;
+}

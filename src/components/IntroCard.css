@@ -1,0 +1,25 @@
+.IntroCard{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 13rem;
+    width: 30%;
+    background-color: #ffffff16;
+    color: #fff;
+    border-radius: 1rem;
+    margin: 3rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.IntroCard img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.IntroCard h2{
+    color: #f00;
+    font-family: 'Courier New', Courier, monospace;
+}
