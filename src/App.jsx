@@ -9,9 +9,8 @@ function App() {
 
   let [todoList, setTodoList] = useState([]);
   
-  let AddTask = (event, task,setTask) => {
+  let AddTask = (event, task, setTask) => {
     event.preventDefault();
-    console.log(event);
     if(task!=""){
       setTodoList((pervTodoList)=>{
         return [...pervTodoList, {id: uuidv4(), task: task, isDone: false}]
